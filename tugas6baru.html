@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6 - Remedial IPAS: Interaksi & Dinamika Sosial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800 min-h-screen py-10 px-4">
+
+    <!-- FORM SUDAH TERHUBUNG DENGAN ID FORMSPREE ANDA -->
+    <form action="https://formspree.io/f/mwvjbpww" method="POST" class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
+        
+        <!-- HEADER -->
+        <header class="border-b-2 border-indigo-100 pb-4 mb-6 text-center">
+            <h1 class="text-3xl font-bold text-indigo-700">TUGAS 6 — REMEDIAL IPAS</h1>
+            <p class="text-xl font-semibold text-gray-700 mt-1">Interaksi Sosial dan Dinamika Sosial</p>
+            <div class="flex flex-wrap justify-center gap-4 mt-2 text-sm text-gray-500 font-medium">
+                <span>Waktu: 75 Menit</span>
+                <span>•</span>
+                <span>Total Poin: 100 Poin</span>
+            </div>
+        </header>
+
+        <!-- INPUT IDENTITAS SISWA -->
+        <div class="mb-8 p-4 bg-indigo-50/50 rounded-xl border border-indigo-100 space-y-4">
+            <h2 class="text-md font-bold text-indigo-900 tracking-wide uppercase">Identitas Siswa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Nama Lengkap:</label>
+                    <input type="text" name="Nama_Lengkap" placeholder="Ketik nama lengkap Anda" required class="w-full p-2.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Kelas / No. Absen:</label>
+                    <input type="text" name="Kelas_Absen" placeholder="Contoh: X TSM 1 / 15" required class="w-full p-2.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                </div>
+            </div>
+        </div>
+
+        <!-- PETUNJUK -->
+        <div class="mb-8 p-4 bg-gray-50 rounded-xl border border-gray-200 text-sm space-y-2">
+            <h3 class="font-bold text-gray-700 uppercase tracking-wide">Petunjuk Pengerjaan:</h3>
+            <ol class="list-decimal list-inside space-y-1 text-gray-600">
+                <li>Berdoalah sebelum mengerjakan soal.</li>
+                <li>Tuliskan identitas diri secara lengkap.</li>
+                <li>Baca setiap soal dan data yang tersedia dengan cermat.</li>
+                <li>Jawab setiap soal secara lengkap, runtut, dan sistematis.</li>
+                <li>Untuk soal hitungan/numerasi: tuliskan Diketahui, Ditanya, dan Penyelesaian.</li>
+                <li>Berikan contoh nyata dari kehidupan sehari-hari atau lingkungan sekitarmu.</li>
+                <li>Boleh menggunakan referensi buku atau internet. TIDAK boleh meniru jawaban teman.</li>
+                <li>Kumpulkan tepat waktu sesuai instruksi guru.</li>
+            </ol>
+        </div>
+
+        <div id="quiz-container" class="space-y-10">
+            
+            <!-- SOAL 1 -->
+            <div class="question-block border-b pb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold text-indigo-900">Soal 1: Bentuk-Bentuk Interaksi Sosial</h2>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">20 Poin</span>
+                </div>
+                <p class="text-sm text-gray-600 mb-3">Perhatikan tabel bentuk-bentuk interaksi sosial berikut ini:</p>
+                
+                <div class="overflow-x-auto mb-4 border rounded-lg">
+                    <table class="w-full text-sm text-left text-gray-500">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 border-b">
+                            <tr>
+                                <th class="px-4 py-2 border-r">Bentuk Interaksi</th>
+                                <th class="px-4 py-2 border-r">Sifat</th>
+                                <th class="px-4 py-2 border-r">Contoh</th>
+                                <th class="px-4 py-2">Dampak</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y text-gray-700">
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Kerja sama (Kooperasi)</td><td class="px-4 py-2 border-r">Asosiatif</td><td class="px-4 py-2 border-r">Gotong royong di desa</td><td class="px-4 py-2">Memperkuat solidaritas</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Akomodasi</td><td class="px-4 py-2 border-r">Asosiatif</td><td class="px-4 py-2 border-r">Mediasi sengketa tanah</td><td class="px-4 py-2">Mengurangi konflik</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Asimilasi</td><td class="px-4 py-2 border-r">Asosiatif</td><td class="px-4 py-2 border-r">Pernikahan beda budaya</td><td class="px-4 py-2">Peleburan budaya baru</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Persaingan (Kompetisi)</td><td class="px-4 py-2 border-r">Disosiatif</td><td class="px-4 py-2 border-r">Ujian masuk PTN</td><td class="px-4 py-2">Mendorong prestasi</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Kontravensi</td><td class="px-4 py-2 border-r">Disosiatif</td><td class="px-4 py-2 border-r">Penyebaran hoaks</td><td class="px-4 py-2">Menimbulkan ketidakpercayaan</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Konflik</td><td class="px-4 py-2 border-r">Disosiatif</td><td class="px-4 py-2 border-r">Tawuran antarpelajar</td><td class="px-4 py-2">Kerusakan & trauma sosial</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="space-y-3 text-sm font-medium text-gray-700">
+                    <p><strong>(a)</strong> Berdasarkan tabel, jelaskan perbedaan mendasar antara interaksi sosial asosiatif dan disosiatif! Berikan masing-masing 1 contoh tambahan yang belum ada di tabel!</p>
+                    <p><strong>(b)</strong> Di lingkungan bengkel SMK-mu, kamu dan teman-teman mengerjakan tugas praktik servis motor bersama-sama. Interaksi sosial apa yang terjadi? Jelaskan syarat-syarat terjadinya interaksi sosial tersebut!</p>
+                    <p><strong>(c)</strong> Konflik antar siswa di sekolah bisa diselesaikan dengan cara akomodasi. Jelaskan 3 bentuk akomodasi yang bisa digunakan (mediasi, arbitrasi, konsiliasi) beserta cara kerjanya!</p>
+                    <p><strong>(d)</strong> Penyebaran hoaks di media sosial termasuk bentuk kontravensi. Mengapa kontravensi lebih berbahaya di era digital? Jelaskan dampaknya pada dinamika sosial di masyarakat!</p>
+                    <p><strong>(e)</strong> Dari 6 bentuk interaksi di tabel, mana yang paling sering kamu temukan di lingkungan sekolah dan bengkel? Ceritakan 1 contoh nyata dan analisis dampaknya!</p>
+                </div>
+                <div class="mt-3">
+                    <textarea name="Jawaban_Soal_1" rows="6" placeholder="Ketikkan seluruh jawaban esai Anda untuk poin (a) sampai (e) di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 2 -->
+            <div class="question-block border-b pb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold text-indigo-900">Soal 2: Faktor Pendorong Interaksi Sosial & Komunikasi</h2>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">20 Poin</span>
+                </div>
+                <div class="bg-amber-50/50 border border-amber-200 p-4 rounded-lg text-sm text-gray-700 leading-relaxed mb-4">
+                    <strong>Wacana:</strong><br>
+                    Dito adalah siswa kelas X TSM yang baru pindah dari Sulawesi ke Samarinda. Hari pertama sekolah, ia merasa canggung dan tidak kenal siapapun. Namun saat jam praktik otomotif, Dito membantu temannya yang kesulitan menyetel karburator motor. Lambat laun ia mulai dikenal dan berteman akrab. Kini Dito aktif dalam kegiatan OSIS dan organisasi bengkel sekolah. Ia juga sering berdebat soal modifikasi motor dengan teman-temannya di grup WhatsApp kelas.
+                </div>
+
+                <div class="space-y-3 text-sm font-medium text-gray-700">
+                    <p><strong>(a)</strong> Identifikasi minimal 4 faktor pendorong interaksi sosial yang muncul dalam cerita Dito! Jelaskan masing-masing faktor tersebut dengan mengacu pada cerita di atas!</p>
+                    <p><strong>(b)</strong> Apa peran 'simpati' dan 'empati' dalam proses Dito beradaptasi di sekolah baru? Jelaskan perbedaan keduanya dengan contoh dari cerita!</p>
+                    <p><strong>(c)</strong> Komunikasi di grup WhatsApp kelas termasuk komunikasi tidak langsung. Jelaskan perbedaan komunikasi langsung dan tidak langsung, serta kelebihan dan kekurangan masing-masing dalam konteks pergaulan siswa!</p>
+                    <p><strong>(d)</strong> Bergabungnya Dito di OSIS merupakan contoh integrasi sosial. Jelaskan apa itu integrasi sosial dan faktor-faktor apa yang mendukung atau menghambat integrasi sosial di sekolah!</p>
+                    <p><strong>(e)</strong> Jika terjadi konflik antara Dito dan temannya soal modifikasi motor, langkah penyelesaian konflik apa yang sebaiknya dilakukan? Jelaskan secara runtut dari awal hingga konflik selesai!</p>
+                </div>
+                <div class="mt-3">
+                    <textarea name="Jawaban_Soal_2" rows="6" placeholder="Ketikkan seluruh jawaban esai Anda untuk poin (a) sampai (e) di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 3 -->
+            <div class="question-block border-b pb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold text-indigo-900">Soal 3: Mobilitas Sosial & Stratifikasi Sosial</h2>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">20 Poin</span>
+                </div>
+                <p class="text-sm text-gray-600 mb-3">Perhatikan tabel jenis-jenis mobilitas sosial berikut ini:</p>
+
+                <div class="overflow-x-auto mb-4 border rounded-lg">
+                    <table class="w-full text-sm text-left text-gray-500">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 border-b">
+                            <tr>
+                                <th class="px-4 py-2 border-r">Jenis Mobilitas</th>
+                                <th class="px-4 py-2 border-r">Arah</th>
+                                <th class="px-4 py-2 border-r">Contoh Kasus</th>
+                                <th class="px-4 py-2">Faktor Pendorong</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y text-gray-700">
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Mobilitas Vertikal Naik</td><td class="px-4 py-2 border-r">Ke atas</td><td class="px-4 py-2 border-r">Petani jadi pengusaha sukses</td><td class="px-4 py-2">Pendidikan & kerja keras</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Mobilitas Vertikal Turun</td><td class="px-4 py-2 border-r">Ke bawah</td><td class="px-4 py-2 border-r">Pengusaha bangkrut jadi buruh</td><td class="px-4 py-2">Bencana / krisis ekonomi</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Mobilitas Horizontal</td><td class="px-4 py-2 border-r">Setara</td><td class="px-4 py-2 border-r">Pindah kerja setingkat jabatan</td><td class="px-4 py-2">Kecocokan lingkungan</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Mobilitas Antargenerasi</td><td class="px-4 py-2 border-r">Antar generasi</td><td class="px-4 py-2 border-r">Anak nelayan jadi dokter</td><td class="px-4 py-2">Akses pendidikan meningkat</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Mobilitas Intragenerasi</td><td class="px-4 py-2 border-r">Dalam generasi</td><td class="px-4 py-2 border-r">Naik pangkat dalam karir</td><td class="px-4 py-2">Prestasi & dedikasi kerja</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="space-y-3 text-sm font-medium text-gray-700">
+                    <p><strong>(a)</strong> Seorang lulusan SMK Jurusan TSM bekerja sebagai mekanik di bengkel AHASS. Setelah 5 tahun, ia membuka bengkel sendiri dan sukses memiliki 3 cabang. Termasuk jenis mobilitas sosial apa? Jelaskan menggunakan konsep dalam tabel!</p>
+                    <p><strong>(b)</strong> Jelaskan apa yang dimaksud dengan stratifikasi sosial! Sebutkan 3 ukuran yang menentukan stratifikasi sosial (kekayaan, kekuasaan, prestise) dan berikan contoh masing-masing dalam konteks kehidupan nyata!</p>
+                    <p><strong>(c)</strong> Apakah pendidikan kejuruan (SMK) bisa menjadi saluran mobilitas sosial vertikal ke atas? Jelaskan alasannya dan berikan 2 contoh nyata lulusan SMK yang berhasil naik strata sosial!</p>
+                    <p><strong>(d)</strong> Dari tabel, mobilitas antargenerasi terjadi antar generasi (ayah-anak). Jelaskan mengapa perbedaan tingkat pendidikan antara orang tua dan anak bisa menjadi faktor utama mobilitas ini! Apa peran keluarga dan pemerintah?</p>
+                    <p><strong>(e)</strong> Hambatan mobilitas sosial bisa berupa diskriminasi dan kesenjangan akses pendidikan. Berikan analisismu: apakah kesenjangan sosial di Indonesia saat ini semakin membaik atau memburuk? Dukung dengan minimal 2 argumen logis!</p>
+                </div>
+                <div class="mt-3">
+                    <textarea name="Jawaban_Soal_3" rows="6" placeholder="Ketikkan seluruh jawaban esai Anda untuk poin (a) sampai (e) di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 4 -->
+            <div class="question-block border-b pb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold text-indigo-900">Soal 4: Numerasi Data Dinamika Sosial Indonesia</h2>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">20 Poin</span>
+                </div>
+                <p class="text-sm text-gray-600 mb-3">Perhatikan tabel data kependudukan dan sosial beberapa wilayah di Indonesia:</p>
+
+                <div class="overflow-x-auto mb-4 border rounded-lg">
+                    <table class="w-full text-sm text-left text-gray-500">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 border-b">
+                            <tr>
+                                <th class="px-4 py-2 border-r">Wilayah</th>
+                                <th class="px-4 py-2 border-r">Penduduk 2020 (juta)</th>
+                                <th class="px-4 py-2 border-r">Penduduk 2023 (juta)</th>
+                                <th class="px-4 py-2 border-r">Angka Kemiskinan (%)</th>
+                                <th class="px-4 py-2">Tingkat Pendidikan SMA+</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y text-gray-700">
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">DKI Jakarta</td><td class="px-4 py-2 border-r">10,6</td><td class="px-4 py-2 border-r">10,8</td><td class="px-4 py-2 border-r">4,4</td><td class="px-4 py-2">68%</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Jawa Barat</td><td class="px-4 py-2 border-r">48,3</td><td class="px-4 py-2 border-r">49,2</td><td class="px-4 py-2 border-r">7,4</td><td class="px-4 py-2">42%</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Kalimantan Timur</td><td class="px-4 py-2 border-r">3,8</td><td class="px-4 py-2 border-r">4,1</td><td class="px-4 py-2 border-r">6,1</td><td class="px-4 py-2">38%</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Papua</td><td class="px-4 py-2 border-r">4,3</td><td class="px-4 py-2 border-r">4,7</td><td class="px-4 py-2 border-r">26,8</td><td class="px-4 py-2">21%</td></tr>
+                            <tr class="bg-white"><td class="px-4 py-2 border-r font-medium">Sulawesi Selatan</td><td class="px-4 py-2 border-r">9,1</td><td class="px-4 py-2 border-r">9,5</td><td class="px-4 py-2 border-r">8,7</td><td class="px-4 py-2">35%</td></tr>
+                            <tr class="bg-gray-50"><td class="px-4 py-2 border-r font-medium">Nusa Tenggara T.</td><td class="px-4 py-2 border-r">5,3</td><td class="px-4 py-2 border-r">5,6</td><td class="px-4 py-2 border-r">19,9</td><td class="px-4 py-2">26%</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="space-y-3 text-sm font-medium text-gray-700">
+                    <p><strong>(a)</strong> Hitung pertumbuhan penduduk (dalam juta) dan persentase pertumbuhan dari 2020 ke 2023 untuk setiap wilayah! Wilayah mana yang mengalami pertumbuhan tertinggi?</p>
+                    <p><strong>(b)</strong> Hitung rata-rata angka kemiskinan dari 6 wilayah tersebut! Berapa poin selisih antara wilayah dengan angka kemiskinan tertinggi dan terendah?</p>
+                    <p><strong>(c)</strong> Kalimantan Timur menjadi lokasi Ibu Kota Nusantara (IKN). Berdasarkan data, apakah Kalimantan Timur siap secara sosial menerima lonjakan penduduk baru? Analisis menggunakan data pendidikan dan kemiskinan!</p>
+                    <p><strong>(d)</strong> Ada hubungan antara tingkat pendidikan dan angka kemiskinan. Berdasarkan data tabel, apakah wilayah dengan tingkat pendidikan SMA+ lebih tinggi cenderung memiliki angka kemiskinan lebih rendah? Buktikan dengan membandingkan minimal 3 wilayah!</p>
+                    <p><strong>(e)</strong> Jika pemerintah ingin menurunkan angka kemiskinan Papua dari 26,8% menjadi 15% dalam 5 tahun, berapa poin penurunan yang dibutuhkan per tahun? Kebijakan sosial apa saja yang menurutmu paling efektif untuk mencapai target tersebut?</p>
+                </div>
+                <div class="mt-3">
+                    <textarea name="Jawaban_Soal_4" rows="6" placeholder="Tuliskan analisis perhitungan numerasi (Diketahui, Ditanya, Penyelesaian) poin (a) sampai (e) di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition resize-y font-mono text-sm"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 5 -->
+            <div class="question-block pb-4">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold text-indigo-900">Soal 5: Dinamika Sosial — Studi Kasus & Solusi</h2>
+                    <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full">20 Poin</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm text-gray-700">
+                    <div class="bg-gray-50 border p-4 rounded-lg leading-relaxed">
+                        <strong class="text-indigo-700">WACANA A — Urbanisasi di Samarinda</strong><br>
+                        Samarinda sebagai ibu kota Kalimantan Timur mengalami lonjakan urbanisasi sejak pengumuman IKN Nusantara. Banyak pendatang dari Jawa, Sulawesi, dan daerah lain datang mencari pekerjaan. Kondisi ini memunculkan gesekan sosial antara warga lokal dan pendatang, persaingan kerja, serta tekanan pada fasilitas umum (sekolah, rumah sakit, transportasi). Namun di sisi lain, keragaman budaya juga memperkaya kehidupan sosial kota.
+                    </div>
+                    <div class="bg-gray-50 border p-4 rounded-lg leading-relaxed">
+                        <strong class="text-indigo-700">WACANA B — Dampak Media Sosial pada Remaja</strong><br>
+                        Sebuah survei menunjukkan 87% siswa SMK menggunakan media sosial lebih dari 4 jam per hari. Media sosial membuka akses informasi luas dan mempererat pertemanan, namun juga memicu fenomena FOMO (Fear of Missing Out), perbandingan sosial, dan penyebaran konten negatif. Beberapa siswa terlibat konflik karena salah paham di media sosial.
+                    </div>
+                </div>
+
+                <div class="space-y-3 text-sm font-medium text-gray-700">
+                    <p><strong>(a)</strong> Berdasarkan Wacana A, jelaskan minimal 3 perubahan sosial (dinamika sosial) yang terjadi akibat urbanisasi di Samarinda! Gunakan konsep interaksi sosial dalam jawabanmu!</p>
+                    <p><strong>(b)</strong> Apakah urbanisasi termasuk bentuk mobilitas sosial? Jelaskan jenis mobilitas sosial apa yang terjadi dan faktor-faktor pendorongnya berdasarkan wacana!</p>
+                    <p><strong>(c)</strong> Berdasarkan Wacana B, jika 87% dari 36 siswa di kelasmu menggunakan medsos > 4 jam/hari, berapa orang siswa yang termasuk kategori tersebut? Apakah hal ini termasuk perubahan sosial? Jelaskan!</p>
+                    <p><strong>(d)</strong> Konflik akibat salah paham di media sosial termasuk interaksi disosiatif. Jelaskan tahapan penyelesaian konflik tersebut menggunakan konsep akomodasi! Berikan langkah-langkah konkretnya!</p>
+                    <p><strong>(e)</strong> Dari kedua wacana di atas, buatlah kesimpulan: bagaimana interaksi sosial yang sehat dapat mendorong dinamika sosial yang positif? Hubungkan dengan nilai-nilai Pancasila dan kehidupan nyata di sekolahmu!</p>
+                </div>
+                <div class="mt-3">
+                    <textarea name="Jawaban_Soal_5" rows="6" placeholder="Ketikkan seluruh jawaban esai Anda untuk poin (a) sampai (e) di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- TOMBOL SUBMIT UNTUK MEMPROSES DI FORMSPREE -->
+            <div class="text-center pt-2">
+                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow transition duration-200">
+                    Kirim Jawaban Remedial
+                </button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
